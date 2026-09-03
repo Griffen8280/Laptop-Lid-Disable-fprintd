@@ -1,0 +1,6 @@
+[UNIT]
+Description=Run a script to enable/disable fprintd with laptop lid switch events
+
+[Service]
+Type=oneshot
+ExecStart=/opt/lidswitch/laptop-lid.sh
