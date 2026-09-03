@@ -1,5 +1,6 @@
 [Unit]
 Description=Monitor file for changes
+After=local-fs.target
 
 [Path]
 PathChanged=/proc/acpi/button/lid/*/state
