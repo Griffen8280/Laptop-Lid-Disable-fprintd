@@ -16,4 +16,5 @@ while true; do
       systemctl start fprintd
       rm "$lock"
     fi
+    sleep 10
 done
