@@ -1,0 +1,8 @@
+[Unit]
+Description=Monitor file for changes
+
+[Path]
+PathChanged=/proc/acpi/button/lid/*/state
+
+[Install]
+WantedBy=multi-user.target
